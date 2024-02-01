@@ -47,13 +47,13 @@
         }
 
         input[type="submit"] {
-            background-color: #4CAF50;
+            background-color: #4CAF50; /* Changed background color to green */
             color: #fff;
             margin-right: 4%;
         }
 
         input[type="button"] {
-            background-color: #f44336;
+            background-color: #f44336; /* Changed background color to red */
             color: #fff;
             margin-left: 4%;
         }
