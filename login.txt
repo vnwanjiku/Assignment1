@@ -70,6 +70,20 @@
             display: flex;
             justify-content: space-between;
         }
+
+        .signup-link {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        .signup-link a {
+            color: #4CAF50;
+            text-decoration: none;
+        }
+
+        .signup-link a:hover {
+            text-decoration: underline;
+        }
     </style>
 </head>
 <body>
@@ -88,6 +102,9 @@
             <input type="button" value="Cancel">
         </div>
     </form>
+    <div class="signup-link">
+        Don't have an account? <a href="signup.php">Sign Up</a>
+    </div>
 </div>
 
 </body>
