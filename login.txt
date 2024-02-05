@@ -47,13 +47,13 @@
         }
 
         input[type="submit"] {
-            background-color: #4CAF50; /* Changed background color to green */
+            background-color: #4CAF50;
             color: #fff;
             margin-right: 4%;
         }
 
         input[type="button"] {
-            background-color: #f44336; /* Changed background color to red */
+            background-color: #f44336;
             color: #fff;
             margin-left: 4%;
         }
@@ -63,6 +63,15 @@
         }
 
         input[type="button"]:hover {
+            background-color: #b71c1c;
+        }
+
+        .delete-button {
+            background-color: #f44336;
+            color: #fff;
+        }
+
+        .delete-button:hover {
             background-color: #b71c1c;
         }
 
@@ -100,12 +109,20 @@
         <div class="button-container">
             <input type="submit" value="Login">
             <input type="button" value="Cancel">
+            <input type="button" class="delete-button" value="Delete" onclick="deleteAccount()">
         </div>
     </form>
     <div class="signup-link">
         Don't have an account? <a href="signup.php">Sign Up</a>
     </div>
 </div>
+
+<script>
+    function deleteAccount() {
+        // Add your logic for handling the delete action here
+        alert("Delete button clicked!");
+    }
+</script>
 
 </body>
 </html>
